@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="25.896" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\prave\eclipse-workspace\inetBankingV1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\prave\eclipse-workspace\inetBankingV1"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\prave\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\prave\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3533794188342258186.tmp"/>
+    <property name="sun.jnu.encoding" value="MS950"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_291\bin;;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\prave"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS950"/>
+    <property name="user.name" value="prave"/>
+    <property name="java.class.path" value="C:\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\prave\eclipse-workspace\inetBankingV1\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="1.471">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:34)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginTest_001.java:14)- URL is opened
+ INFO [main] (TC_LoginTest_001.java:18)- Entered username
+ INFO [main] (TC_LoginTest_001.java:21)- Entered password
+Screenshot taken
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 27656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624297093.450][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 21, 2021 11:08:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="9.679"/>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="4.612">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:35)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:24)- user name provided
+ INFO [main] (TC_LoginDDT_002.java:26)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="4.864">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:35)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:24)- user name provided
+ INFO [main] (TC_LoginDDT_002.java:26)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="9.127"/>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="4.918">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:35)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:24)- user name provided
+ INFO [main] (TC_LoginDDT_002.java:26)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="14.746"/>
+</testsuite>
